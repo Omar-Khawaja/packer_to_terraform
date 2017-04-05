@@ -29,7 +29,7 @@ if [ ! -f $packer_template_path ]; then
 fi
 
 if [ ! -d $terraform_project_location ]; then
-        printf "\nterraform_project_location does not exist\n\n"
+        printf "\n$terraform_project_location does not exist\n\n"
         exit 1
 fi
 
